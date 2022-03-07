@@ -1,0 +1,8 @@
+body{
+    background-color: #fffff3;    
+}
+p {
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; /*tipos de fonte, colocadas em ordem para testar caso encontre uma caractere que não pode ser renderizada para a primeira fonte.*/
+    margin: 1vw;
+}

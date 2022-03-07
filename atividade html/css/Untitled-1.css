@@ -1,0 +1,53 @@
+/*CSS é usado para "modelar" as partes da página, podendo manipular partes de cada elemento.*/
+/* IDs são principalmente utilizados para elementos únicos de uma página, ids não são reutilizaveis. Pode ser usado para estilizar um parágrafo unicamente. */
+/* Class é para definir um "tipo" de elemento, que pode definir vários elementos a esse tipo, que formataria todos os elementos da classe da mesma forma. */
+body{
+
+    background-color: #fffff3; /*background-image: linear-gradient(red, blue, green);*/
+}
+.fotodoronaldo {
+ width: 700px;   
+}
+h1{
+    text-align: center;   
+}
+#paragrafo0 {
+    font-family: 'Courier New', Courier, monospace;
+    color:#00a791;
+    font-size: 8px;
+}
+#paragrafo1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(202, 0, 0); /*Cores no CSS podem ser escolhidas usando o esquema RGB ou Hex */
+    font-size: 10px;
+}
+#paragrafo2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aqua;
+    font-size: 20px;
+    font-weight: bold; /*Colocar o texto em negrito*/
+
+}
+#paragrafo3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:bisque;
+    font-size: 30px;
+}
+#paragrafo4 {
+    font-family: 'Times New Roman', Times, serif;
+    color:burlywood;
+    font-size: 40px;
+    text-decoration:dotted;
+}
+img {
+    justify-items: center;
+    width: 300px;
+    size: 300px;
+    vertical-align: center;
+}
+p {
+    text-align: center;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; /*Tipos de fonte, colocadas em ordem para testar caso encontre uma caractere que não pode ser renderizada para a primeira fonte.*/
+    margin: 1vw; /*Margem em volta do elemento que cria um espaço entre eles.*/
+}
